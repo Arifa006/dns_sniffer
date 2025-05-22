@@ -57,3 +57,46 @@ And if spoofing is detected:
 ⚠️ Spoofing Alerts
 [!] ALERT: www.google.com returned a new IP → 23.45.67.89 (Possible Spoofing!)
 [!] ALERT: www.yahoo.com returned a new IP → 54.23.111.5 (Possible Spoofing!)
+
+
+
+
+
+
+
+
+
+SCREENSHOTS 
+
+✅ 1. Running.png
+What it shows:
+
+The tool has been successfully launched and is actively monitoring DNS traffic.
+
+Why it matters:
+This proves your script is functional and correctly set up — important for beginners or recruiters who need to see that it runs without errors.
+
+🌐 2. Dns query response Alert possible spoofing.png
+What it shows:
+
+Real-time DNS queries
+
+Multiple IP responses
+
+Alert flagging for possible spoofing
+
+Why it matters:
+This is the core demonstration of your project. It shows the detection logic working and alerting correctly — a big highlight.
+
+🚨 3. Spoof Alert Detection.png
+What it shows:
+
+A close-up zoomed view of a spoof detection alert
+
+A clear red [!] ALERT: line with a suspicious IP
+
+Why it matters:
+This reinforces your detection result, shows precision in matching IP inconsistencies, and highlights red-flagging for spoofing.
+
+
+
