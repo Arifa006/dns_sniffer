@@ -35,3 +35,25 @@ Make sure Python 3 is installed on your machine, then install `Scapy`:
 
 ```bash
 pip install scapy
+
+### 2. Run the Detector
+bash
+python dns_sniffer.py
+
+You’ll see:
+css
+[*] DNS Spoof Detector Running...
+And if spoofing is detected:
+
+[!] ALERT: www.example.com returned a new IP → 123.45.67.89 (Possible Spoofing!)
+
+
+🧪 Sample Outputs
+
+✅ Normal DNS Responses
+[DNS Response] www.google.com → 142.251.41.36
+[DNS Response] cdn.cloudflare.com → 104.17.210.9
+
+⚠️ Spoofing Alerts
+[!] ALERT: www.google.com returned a new IP → 23.45.67.89 (Possible Spoofing!)
+[!] ALERT: www.yahoo.com returned a new IP → 54.23.111.5 (Possible Spoofing!)
